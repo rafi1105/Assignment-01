@@ -5,11 +5,14 @@
 }
 body{
     margin: 0;
+    background: #F2EDED;
 }
 :root{
-    --primary-color: #4E47FF;
+    --primary-color: #4d47ff;
     --secondary-color: #fff;
-    --bold: 600;
+    --bold: 700;
+    --primary-bg: #4d47ff3d;
+    --secondary-bg:var(--secondary-color)
 }
 .banner{
     background-image: url(./B12A01-landing-launchpad/Assets/Hero-bg.png);
@@ -56,7 +59,7 @@ nav{
     font-size: 65px;
 }
 .action{
-    margin-top: 200px;
+    margin: 150px 0;
     display: flex;
     align-items: center;
 }
@@ -65,7 +68,7 @@ nav{
     min-width: 400px;
     min-height: 328px;
 }
-.see_action>h3{
+h3{
     font-size: 42px;
     font-weight: var(--bold);
     margin-bottom: 23px;
@@ -73,4 +76,81 @@ nav{
 .see_action>p{
     font-size: 24px;
     margin-bottom: 23px;
+}
+.productive-user{
+   background: #000;
+   padding: 50px 80px;
+   border: none;
+   border-radius: 24px;
+background: var(--primary-bg);
+   text-align: center;
+   margin-bottom: 150px;
+    max-width: 1140px;
+    max-height: 306px;
+h3{
+    margin-bottom: 40px;
+}
+}
+.active{
+    display: flex;
+    align-items: center;
+  .pnt{
+    font-size: 80px;
+    color: var(--primary-color);
+    font-weight: var(--bold);
+    font-family: "Inter";
+  }
+}
+.caption{
+    color: #0000008c;
+    font-weight: bold;
+}
+.review{
+   
+    max-width: 1140px;
+    max-height: 342px;
+    margin-bottom: 150px;
+    h3{
+        margin-bottom: 50px;
+         text-align: center;
+    }
+    .container{
+        display: flex;
+        gap: 50px 20px;
+        margin: auto;
+        height: 243px;
+    }
+    .card{
+        background: var(--secondary-bg);
+        padding: 24px;
+        border: 2px solid #F2EDED;
+        border-radius: 14px;
+    .star{
+        margin-bottom: 24px;
+    }
+    .text{
+        margin-bottom: 24px;
+    }
+    .text > .title{
+        font-weight: var(--bold);
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .avatar{
+      display: flex;
+        align-items: center;
+     img{
+        border: none;
+        border-radius:100%;
+        margin: 2px;
+    }
+    .details-user{
+        .name{
+            font-weight: bold;
+        }
+    }
+    }
+    
+    
+
 }
