@@ -1,16 +1,76 @@
 *{
-    margin: auto;
+    margin:  auto;
     font-family: "Raleway";
+    font-weight: 400;
+}
+body{
+    margin: 0;
 }
 :root{
     --primary-color: #4E47FF;
+    --secondary-color: #fff;
+    --bold: 600;
+}
+.banner{
+    background-image: url(./B12A01-landing-launchpad/Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1440px;
+    min-height: 698px;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 0px;
+    padding: 50px 0;
+    margin-bottom: 158px;
 }
 .logo{
     font-weight: 900;
-
+    font-size: 34px;
+    color: var(--primary-color);
+}
+.btn-1{
+    padding: 12px 36px;
+    background: var(--primary-color);
+    border-radius: 10px;
+    border: none;
+    color: var(--secondary-color);
+    font-weight: var(--bold);
+    text-align: center;
+}
+.btn-1:hover{
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    background: var(--secondary-color);
+    font-weight: var(--bold);
+    transform: scale(1.01);
+    transition: ease 1s ;
+}
+.header{
+    display: block;
+}
+.header>h1{
+    margin-bottom: 37px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 65px;
+}
+.action{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+}
+.action>img{
+    border-radius: 48px;
+    min-width: 400px;
+    min-height: 328px;
+}
+.see_action>h3{
+    font-size: 42px;
+    font-weight: var(--bold);
+    margin-bottom: 23px;
+}
+.see_action>p{
+    font-size: 24px;
+    margin-bottom: 23px;
 }
