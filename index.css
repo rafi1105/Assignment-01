@@ -1,0 +1,16 @@
+*{
+    margin: auto;
+    font-family: "Raleway";
+}
+:root{
+    --primary-color: #4E47FF;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+.logo{
+    font-weight: 900;
+
+}
