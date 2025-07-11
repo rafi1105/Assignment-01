@@ -154,7 +154,30 @@ h3{
         }
     }
     }
-    
-    
+}
+.focus_better{
+    text-align: center;
+    margin-bottom: 150px;
+    padding: 70px 150px;
+    background: var(--secondary-bg);
+    border-radius: 14px;
+    width: 1140px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 
+    h3{
+        font-size: 42px;
+        font-weight: var(--bold);
+     
+    }
+    img{
+        min-width: 400px;
+        min-height: 328px;
+        border-radius: 48px;
+    }
 }
