@@ -252,4 +252,21 @@ footer{
     padding: 50px 0;
     background-color: white;
     text-align: center;
+    gap: 20px;
+    h1{
+            font-weight: 900;
+            font-size: 100px;
+            font-family: "Inter";
+            color: var(--primary-color);
+          
+    }
+    p{
+        color: #8987A1;
+    }
+    .links >a{
+      color: #8987A1;
+        text-decoration: none;
+        margin: 0 20px;
+        font-size: 16px;
+    }
 }
